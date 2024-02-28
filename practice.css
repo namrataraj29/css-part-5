@@ -1,0 +1,44 @@
+#container{
+    height: 800px;
+    width: 800px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: black;
+    font-size: 30px;
+    align-items: centers;
+    
+
+
+}
+#contain{
+    height: 50px;
+    width: 900px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-self: flex-start;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    background-color: pink;
+}
+.pin{
+    height: 50px;
+    width:90px ;
+    border-radius: 10px;
+    color: darkgreen;
+    margin-left:5px;
+    font-size: 24px;
+
+}
